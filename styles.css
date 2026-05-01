@@ -524,6 +524,12 @@ a {
   background: #ffffff;
 }
 
+video {
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
 /* =========================
    FOOTER
 ========================= */
