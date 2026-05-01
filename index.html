@@ -3,113 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Vinh Pham</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <header>
-      <h1>My Portfolio</h1>
-      <p>Software Developer | Problem Solver | Builder</p>
-    </header>
 
-    <nav>
+  <body>
+    <!-- NAV (minimal, top-right) -->
+    <nav class="top-nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html">Experience</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
+    <!-- SIDE ICONS -->
+    <div class="side-icons">
+      <a
+        href="https://www.linkedin.com/in/vinhhphvm/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="images/LinkedIn.svg" alt="LinkedIn" />
+      </a>
+      <a
+        href="https://github.com/vinhhphvm"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="images/GitHub.svg" alt="GitHub" />
+      </a>
+      <a href="contact.html">
+        <img src="images/email.png" alt="Email" />
+      </a>
+    </div>
+
     <main>
-      <section id="home" class="hero">
-        <div class="hero-text">
-          <h2>Welcome to My Portfolio</h2>
-          <p>Showcasing my skills, experience, and projects.</p>
-          <a class="button" href="projects.html">View My Work</a>
+      <section class="hero-split hero-home">
+        <!-- LEFT -->
+        <div class="hero-left">
+          <div>
+            <h1>Vinh Pham</h1>
+            <p>
+              Third Year CS and Business Student at Arizona State University.
+            </p>
+            <p>AI/ML Researcher at Algoverse</p>
+          </div>
         </div>
-        <div class="hero-box">Hero Image / Project Preview</div>
-      </section>
 
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          I am a computer science student interested in software development and
-          building useful applications.
-        </p>
-        <p>
-          Visit my About Me page to learn more about my background, goals, and
-          what I enjoy doing as a developer.
-        </p>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-          <h3>Project 1</h3>
-          <p>Description of project.</p>
+        <!-- RIGHT -->
+        <div class="hero-right">
+          <h2><a href="about.html">ABOUT</a></h2>
+          <h2><a href="experience.html">EXPERIENCE</a></h2>
+          <h2><a href="projects.html">PROJECTS</a></h2>
+          <h2><a href="contact.html">CONTACT</a></h2>
         </div>
-        <div class="project">
-          <h3>Project 2</h3>
-          <p>Description of project.</p>
-        </div>
-      </section>
-
-      <section id="experience">
-        <h2>Experience</h2>
-        <p>List your experience here.</p>
-      </section>
-
-      <section id="skills">
-        <h2>Skills</h2>
-        <table>
-          <tr>
-            <th>Skill</th>
-            <th>Level</th>
-            <th>Experience</th>
-          </tr>
-          <tr>
-            <td>HTML</td>
-            <td>Advanced</td>
-            <td>2 years</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Advanced</td>
-            <td>2 years</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>Intermediate</td>
-            <td>1 year</td>
-          </tr>
-        </table>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input id="name" type="text" required />
-
-          <label for="email">Email:</label>
-          <input id="email" type="email" required />
-
-          <label for="subject">Subject:</label>
-          <input id="subject" type="text" required />
-
-          <label for="message">Message:</label>
-          <textarea id="message" required></textarea>
-
-          <button type="submit">Submit</button>
-        </form>
       </section>
     </main>
 
-    <footer>
-      <p>© 2025 My Portfolio</p>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>© 2026 Vinh Pham</p>
     </footer>
   </body>
 </html>
